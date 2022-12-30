@@ -1,4 +1,4 @@
-# Projetos realizados nos cursos disponibilizados pela Origamid
+# Projetos realizados nos cursos da Origamid
 
 <p>Projetos desenvolvidos nos cursos da plataforma Origamid</p>
 Site: https://www.origamid.com/cursos/
