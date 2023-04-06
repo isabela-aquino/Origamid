@@ -77,8 +77,9 @@
   color: var(--cor-0);
 }
 
-.titulo {
-  padding: 60px 0;
+.titulo-bg{
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--cor-11);
 }
 
@@ -92,7 +93,8 @@
     text-transform: lowercase;
     font-weight: 400;
   }
-  .titulo {
-    padding: 40px 0;
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
