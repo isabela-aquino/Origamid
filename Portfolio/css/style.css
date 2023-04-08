@@ -47,7 +47,6 @@ img{
   font-size: 1.125rem;
   display: inline-block;
   padding: 16px 0px;
-  position: relative;
   line-height: 1.3;
   text-decoration: none;
 }
@@ -62,11 +61,15 @@ img{
     padding: 20px;
   }
 
+  .header-menu{
+    margin-top: 20px;
+    gap: 20px;
+  }
+
   .header a{
     background: #26272E ;
     border-radius: 5px;
-    padding: 10px;
-    margin-top: 24px;
+    padding: 10px;  
   }
 }
 
@@ -76,6 +79,7 @@ img{
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  gap: 40px;
 }
 
 .introducao img{
@@ -83,9 +87,11 @@ img{
 }
 
 .introducao h1{
-  margin-left: 40px;
   font-size: 4.5rem;
+  line-height: 1.125;
   display: flex;
+  margin-right: 20px;
+  margin-bottom: 50px;
 }
 
 .introducao h1::before{
@@ -107,12 +113,10 @@ img{
     display: none;
   }
   .introducao h1{
-    font-size: 3.5rem;
+    margin-left: 40px;
+    
   }
   .introducao h1::before{
-    content: "";
-    display: inline-block;
-    background-color: #AD2D44;
     width: 13px;
     height: 40px;
     margin-right: 8px;
@@ -120,13 +124,284 @@ img{
   }
 }
 
-@media(max-width: 600px ){
+@media(max-width: 700px ){
   .introducao h1{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   .introducao h1::before{ 
     width: 10px;
     height: 28px;
     margin-top: 8px;
+  }
+}
+
+@media(max-width: 500px ){
+  .introducao h1{
+    font-size: 2.5rem;
+    margin-bottom: 100px;
+  }
+}
+
+.subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+.experiencia {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+
+.experiencia .subtitulo {
+  color: #3D3D3D;
+}
+
+.experiencia-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #FFFFFF;
+}
+
+.experiencia-texto strong{
+  color: #AD2D44;
+}
+
+.empresa{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  background: #26272E;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+.empresa::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#AD2D44, #D83956);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.empresa-ano {
+  position: absolute;
+  top: 22px;
+  left: -100px;
+  text-align: right;
+  width: 80px;
+  color: #525252;
+  font-size: 0.875rem;
+}
+
+.empresa-titulo {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.empresa-texto {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #bebebe;
+}
+
+.empresa-habilidades{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-content: start;
+}
+
+.empresa-habilidades li {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  border-radius: 4px;
+  background: #AD2D44;
+  padding: 5px 10px;
+}
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .experiencia .subtitulo {
+    color: #141414;
+  }
+
+  .experiencia-texto {
+    font-size: 1.25rem;
+  }
+
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+}
+
+@media (max-width: 400px) {
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+}
+
+.formacao{
+  color: #212226;
+  background: #ffffff;
+}
+
+.formacao-container{
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  position: relative;
+}
+
+.formacao .subtitulo{
+  color: #CCCCCC;
+  max-width: 5ch;
+}
+
+.formacao-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 60px;
+  color: #212226;
+}
+
+.formacao-texto strong{
+  color: #AD2D44;
+}
+
+.faculdade-lista{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.faculdade{
+  flex: 1;
+  background: #F5F4F4;
+  padding: 20px;
+  
+  border: 1px solid #3D3D3D;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.faculdade-tipo {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #a3a3a3;
+  margin-bottom: 10px;
+}
+
+.faculdade-curso {
+  flex: 1;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.faculdade::before {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 20px;
+  background: linear-gradient(#AD2D44, #D83956);
+  position: absolute;
+  top: 20px;
+  left: -8px;
+}
+
+.faculdade-instituicao {
+  font-size: 1.125rem;
+  color: #3D3D3D;
+}
+
+.cursos {
+  margin-bottom: 60px;
+}
+
+.formacao-extra h3 {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  color: #666666;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.formacao-extra h3::before {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: -4px;
+}
+
+.cursos h3::before {
+  
+  background: url("../img/cursos.svg") no-repeat center center;
+}
+
+.idiomas h3::before {
+  background: url("../img/idiomas.svg") no-repeat center center;
+}
+
+.formacao-extra li {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.formacao-extra span {
+  color: #8f8f8f;
+}
+
+.cursos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .formacao-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+  .formacao-texto {
+    font-size: 1.25rem;
+  }
+  .formacao-extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
   }
 }
