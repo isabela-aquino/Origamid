@@ -19,6 +19,8 @@ Site: https://www.origamid.com/cursos/
   
   <li> Bikcraft
     <p>Projeto desenvolvido no curso de HTML e CSS para iniciantes e no curso de UI Design Iniciante, com o intuito de aprender na prática o HTML, CSS e um pouco de JS e como utiliza-las e também aprender sobre UI Design e como desenvolver o design de um site do zero.</p>
+    <p>Link do Figma:</p>
+    https://www.figma.com/file/obZ95BxlqTHPNPtgfBvI2U/bikcraft?node-id=0%3A1&t=qTvpFFxieADtotSq-1
     <p>Linguagens utilizadas: HTML e CSS, JS</p>
   </li>
 </ul>
