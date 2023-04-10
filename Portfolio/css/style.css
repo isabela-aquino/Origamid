@@ -165,6 +165,14 @@ img{
   color: #3D3D3D;
 }
 
+@media(max-width: 800px){
+  .subtitulo{
+    font-size: 4rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}
+
 .experiencia-texto {
   font-size: 1.5rem;
   line-height: 1.33;
@@ -435,6 +443,18 @@ img{
   font-size: 1.75rem;
 }
 
+@media (max-width: 800px) {
+  .servicos-container {
+    grid-template-columns: 1fr;
+    padding: 60px 20px;
+    gap: 40px;
+  }
+ .servicos-tipo{
+  flex-direction: column;
+  gap: 40px;
+ }
+}
+
 .footer{
   background: #27272c;
 }
@@ -472,4 +492,15 @@ img{
   margin-top: 100px;
   color: #AD2D44;
   font-size: 1.125rem;
+}
+
+@media (max-width: 800px){
+  .footer-container{
+    grid-template-columns: 1fr;
+  }
+
+  .footer-contato{
+    margin-top: 50px;
+    margin-left: 0;
+  }
 }
