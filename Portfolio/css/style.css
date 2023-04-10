@@ -160,7 +160,8 @@ img{
 }
 
 
-.experiencia .subtitulo {
+.experiencia .subtitulo,
+.servicos .subtitulo {
   color: #3D3D3D;
 }
 
@@ -240,10 +241,6 @@ img{
     gap: 40px;
   }
 
-  .experiencia .subtitulo {
-    color: #141414;
-  }
-
   .experiencia-texto {
     font-size: 1.25rem;
   }
@@ -263,6 +260,7 @@ img{
 }
 
 .formacao{
+  padding: 50px;
   color: #212226;
   background: #ffffff;
 }
@@ -368,7 +366,6 @@ img{
 }
 
 .cursos h3::before {
-  
   background: url("../img/cursos.svg") no-repeat center center;
 }
 
@@ -404,4 +401,75 @@ img{
     position: initial;
     margin-bottom: 10px;
   }
+}
+
+.servicos{
+  padding: 50px;
+}
+
+.servicos-container{
+  max-width: 1200px;
+  padding: 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.servicos-tipo{
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+
+.servico-item{
+  padding: 30px;
+  max-width: 25ch;
+  height: 270px;
+  border: 1px solid #AD2D44;
+  border-radius: 5px;
+  line-height: 1.75;
+}
+
+.servico-item h3{
+  font-size: 1.75rem;
+}
+
+.footer{
+  background: #27272c;
+}
+
+.footer-container{
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.footer-texto{
+  color: #7D7B7B;
+  max-width: 40ch;
+  font-size: 1.5rem;
+  margin-right: 100px;
+}
+
+.footer-contato{
+  font-size: 1.75rem;
+  color: #FFFFFF;
+  margin-left: 100px;
+}
+
+.footer-contato li{
+  margin-bottom: 40px;
+}
+
+.footer-copy{
+  grid-column: 1/-1;
+  margin-top: 100px;
+  color: #AD2D44;
+  font-size: 1.125rem;
 }
