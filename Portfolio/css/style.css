@@ -109,13 +109,15 @@ img{
     grid-template-columns: 1fr;
     padding-top: 60px;
   }
+
   .introducao img{
     display: none;
   }
+
   .introducao h1{
     margin-left: 40px;
-    
   }
+
   .introducao h1::before{
     width: 13px;
     height: 40px;
@@ -128,6 +130,7 @@ img{
   .introducao h1{
     font-size: 3.5rem;
   }
+
   .introducao h1::before{ 
     width: 10px;
     height: 28px;
@@ -402,9 +405,11 @@ img{
     padding: 60px 20px;
     gap: 40px;
   }
+
   .formacao-texto {
     font-size: 1.25rem;
   }
+
   .formacao-extra h3::before {
     position: initial;
     margin-bottom: 10px;
@@ -461,26 +466,27 @@ img{
 
 .footer-container{
   max-width: 1200px;
-  padding: 40px 20px;
+  padding: 120px 20px 60px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 50px;
+  gap: 100px;
   align-items: center;
-  padding-left: 50px;
 }
 
 .footer-texto{
+  font-size: 1.5rem;
+  line-height: 1.33;
   color: #7D7B7B;
   max-width: 40ch;
-  font-size: 1.5rem;
-  margin-right: 100px;
 }
 
 .footer-contato{
-  font-size: 1.75rem;
-  color: #FFFFFF;
-  margin-left: 100px;
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .footer-contato li{
@@ -489,7 +495,6 @@ img{
 
 .footer-copy{
   grid-column: 1/-1;
-  margin-top: 100px;
   color: #AD2D44;
   font-size: 1.125rem;
 }
@@ -497,10 +502,6 @@ img{
 @media (max-width: 800px){
   .footer-container{
     grid-template-columns: 1fr;
-  }
-
-  .footer-contato{
-    margin-top: 50px;
-    margin-left: 0;
+    gap: 40px;
   }
 }
