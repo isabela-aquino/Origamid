@@ -25,3 +25,11 @@ body{
   }
 }
 
+.lista-plano li{
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.lista-plano li:last-child{
+  border: none;
+}
