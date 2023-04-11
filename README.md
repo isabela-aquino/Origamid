@@ -23,4 +23,14 @@ Site: https://www.origamid.com/cursos/
     https://www.figma.com/file/obZ95BxlqTHPNPtgfBvI2U/bikcraft?node-id=0%3A1&t=qTvpFFxieADtotSq-1
     <p>Linguagens utilizadas: HTML e CSS, JS</p>
   </li>
+  
+  <li> Portfolio
+    <p>Projeto desenvolvido no curso de HTML e CSS para iniciantes e no curso de a interface desenvolvida no curso de UI Design Iniciante.</p>
+    <p>Linguagens utilizadas: HTML e CSS</p>
+  </li>
+  
+  <li> Caravan
+    <p>Projeto desenvolvido no curso de Bootstrap, com o objetivo de aprender sobre o Framework e como utiliza-lo</p>
+    <p>Linguagens utilizadas: HTML, CSS, JS e BOOTSTRAP</p>
+  </li>
 </ul>
