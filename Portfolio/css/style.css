@@ -3,7 +3,6 @@ body{
   font-family: 'Fira Sans', Arial, sans-serif;
   color: #FFFFFF;
   margin: 0px;
-  
 }
 
 h1, h2, p{
@@ -198,6 +197,7 @@ img{
   border-radius: 4px;
   position: relative;
 }
+
 .empresa::before {
   content: "";
   display: block;
@@ -314,7 +314,6 @@ img{
   flex: 1;
   background: #F5F4F4;
   padding: 20px;
-  
   border: 1px solid #3D3D3D;
   border-radius: 5px;
   position: relative;
@@ -454,10 +453,11 @@ img{
     padding: 60px 20px;
     gap: 40px;
   }
- .servicos-tipo{
-  flex-direction: column;
-  gap: 40px;
- }
+
+  .servicos-tipo{
+    flex-direction: column;
+    gap: 40px;
+  }
 }
 
 .footer{
